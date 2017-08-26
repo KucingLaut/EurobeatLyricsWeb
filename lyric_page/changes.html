@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Eurobeat Lyrics Web</title>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="../style.css">
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			</script>
+		<![endif]-->
+		<style>
+
+		</style>
+	</head>
+	<body style="background-color:#22313F; font-family: sans-serif;">
+		<!-- Header -->
+		<header>
+			<h1>
+			EUROBEAT LYRICS WEB
+			</h1>
+			<p>
+				<b>Your One Stop Eurobeat Lyrics List</b>
+			</p>
+		</header>
+		<!--menubar-->
+		<nav>
+			<a href="../index.html" class="menu_link home">Home</a>
+			<a href="../song_list.html" class="menu_link song_list">Song List</a>
+			<a href="../about.html" class="menu_link about">About</a>
+		</nav>
+		<!-- Content -->
+		<section>
+			<!--Song Title-->
+			<h2>Lyrics for Changes - Betty Blue</h2>
+			<!--Youtube Video-->
+			<iframe width="420" height="345" src="https://www.youtube.com/embed/M3R81hjcgy4"></iframe>
+			<br><br>
+			<div class="tab">
+				<button class="tablinks" onclick="openCity(event, 'English')" id="defaultOpen">English</button>
+			</div>
+			<div id="English" class="tabcontent">
+				<br />I see my days that are passing by
+				<br />They fade away, it's just an illusion
+				<br />Searching for you in my lonely nights
+				<br />I want to say, I'm looking for passion
+				<br />
+				<br />Changes into my heart, can't you feel me
+				<br />Lost in the night, I'm looking for freedom
+				<br />How can I miss you, I don't resist you
+				<br />Love is all we need
+				<br />
+				<br />Changes you give me love and desire
+				<br />Changes my love is changing your live forever
+				<br />Into my feelings turn on the light
+				<br />Oh changes in my life
+				<br />
+				<br />Changes you give me love and desire
+				<br />Changes my love is changing your life forever
+				<br />Into my feelings set me free
+				<br />Your love is all I need
+				<br />
+				<br />Deep in my soul, it's so hard to say
+				<br />I'm needing you, my love is devotion
+				<br />Into my dreams, you're so far away
+				<br />Come back to me, I need an emotion
+			</div>
+
+			<script>
+			function openCity(evt, cityName) {
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName("tabcontent");
+				for (i = 0; i < tabcontent.length; i++) {
+						tabcontent[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablinks");
+				for (i = 0; i < tablinks.length; i++) {
+						tablinks[i].className = tablinks[i].className.replace(" active", "");
+				}
+				document.getElementById(cityName).style.display = "block";
+				evt.currentTarget.className += " active";
+			}
+
+			// Get the element with id="defaultOpen" and click on it
+			document.getElementById("defaultOpen").click();
+			</script>
+		</section>
+	</body>
+</html>

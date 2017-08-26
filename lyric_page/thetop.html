@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Eurobeat Lyrics Web</title>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="../style.css">
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			</script>
+		<![endif]-->
+		<style>
+
+		</style>
+	</head>
+	<body style="background-color:#22313F; font-family: sans-serif;">
+		<!-- Header -->
+		<header>
+			<h1>
+			EUROBEAT LYRICS WEB
+			</h1>
+			<p>
+				<b>Your One Stop Eurobeat Lyrics List</b>
+			</p>
+		</header>
+		<!--menubar-->
+		<nav>
+			<a href="../index.html" class="menu_link home">Home</a>
+			<a href="../song_list.html" class="menu_link song_list">Song List</a>
+			<a href="../about.html" class="menu_link about">About</a>
+		</nav>
+		<!-- Content -->
+		<section>
+			<!--Song Title-->
+			<h2>Lyrics for The Top - Ken Blast</h2>
+			<!--Youtube Video-->
+			<iframe width="420" height="345" src="https://www.youtube.com/embed/sk1Q-BFgnPM"></iframe>
+			<br><br>
+			<div class="tab">
+			<button class="tablinks" onclick="openCity(event, 'English')" id="defaultOpen">English</button>
+			</div>
+			<div id="English" class="tabcontent">
+<pre>
+Final lap I'm on top of the world
+And I will never rest for second again
+One more time I have beaten them out
+The scent of gasoline announces the end
+
+They all said I'd best give it up
+What a fool, to believe their lie-ie-ies!
+Now they've fallen, I'm at the top
+Are you ready now to die-ie-ie?
+
+I came up from the bottom
+And into the top
+For the first time I feel alive
+I can fly like an eagle
+And strike like a hawk
+Do you think you can survive... the top?
+
+One more turn and I'll settle the score
+A rubber fire screams into the night
+Crash and burn is what you're gonna do
+I am a master of the asphalt fight
+
+They all said I'd best give it up
+What a fool, to believe their lie-ie-ies!
+Now they've fallen, I'm at the top
+Are you ready now to die-ie-ie?
+
+I came up from the bottom
+And into the top
+For the first time I feel alive!
+I can fly like an eagle
+And strike like a hawk
+Do you think you can survive...
+I came up from the bottom
+And into the top
+For the first time I feel alive!
+I can fly like an eagle
+And strike like a hawk
+Do you think you can survive... the top?
+</pre>
+			</div>
+			<script>
+			function openCity(evt, cityName) {
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName("tabcontent");
+				for (i = 0; i < tabcontent.length; i++) {
+						tabcontent[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablinks");
+				for (i = 0; i < tablinks.length; i++) {
+						tablinks[i].className = tablinks[i].className.replace(" active", "");
+				}
+				document.getElementById(cityName).style.display = "block";
+				evt.currentTarget.className += " active";
+			}
+
+			// Get the element with id="defaultOpen" and click on it
+			document.getElementById("defaultOpen").click();
+			</script>
+		</section>
+	</body>
+</html>

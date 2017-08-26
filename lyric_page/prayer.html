@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Eurobeat Lyrics Web</title>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="../style.css">
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			</script>
+		<![endif]-->
+		<style>
+
+		</style>
+	</head>
+	<body style="background-color:#22313F; font-family: sans-serif;">
+		<!-- Header -->
+		<header>
+			<h1>
+			EUROBEAT LYRICS WEB
+			</h1>
+			<p>
+				<b>Your One Stop Eurobeat Lyrics List</b>
+			</p>
+		</header>
+		<!--menubar-->
+		<nav>
+			<a href="../index.html" class="menu_link home">Home</a>
+			<a href="../song_list.html" class="menu_link song_list">Song List</a>
+			<a href="../about.html" class="menu_link about">About</a>
+		</nav>
+		<!-- Content -->
+		<section>
+			<!--Song Title-->
+			<h2>Lyrics for Prayer - Ducky Chix</h2>
+			<!--Youtube Video-->
+			<iframe width="420" height="345" src="https://www.youtube.com/embed/o31MqHSnz_o"></iframe>
+			<br><br>
+			<div class="tab">
+			<button class="tablinks" onclick="openCity(event, 'English')" id="defaultOpen">English</button>
+			</div>
+			<div id="English" class="tabcontent">
+<pre>
+Baby tell me why your love has gone away,
+I am so sad
+Everything I thought was good has now gone bad
+Makes me mad
+
+All my love
+That I gave to you was precious
+Now you're gone
+All you've left is memory
+
+Say a little prayer for this broken heart
+Say a little prayer for this love of mine
+Tonite I feel so cold and lonely
+I long for your touch
+Say a little prayer for this broken heart
+Say a little prayer for this soul of mine
+Tonite I feel so cold and lonely
+I long for your loving
+
+I've been waiting for your call a thousand nights
+Tell me why
+Picking up the pieces of my broken heart. Can't survive.
+
+All my love
+That I gave to you was precious
+Now you're gone
+All you've left is memory
+
+Say a little prayer for this broken heart
+Say a little prayer for this love of mine
+Tonight I feel so cold and lonely
+I long for your touch
+Say a little prayer for this broken heart
+Say a little prayer for this soul of mine
+Tonight I feel so cold and lonely
+I long for your loving
+</pre>
+			</div>
+			<script>
+			function openCity(evt, cityName) {
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName("tabcontent");
+				for (i = 0; i < tabcontent.length; i++) {
+						tabcontent[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablinks");
+				for (i = 0; i < tablinks.length; i++) {
+						tablinks[i].className = tablinks[i].className.replace(" active", "");
+				}
+				document.getElementById(cityName).style.display = "block";
+				evt.currentTarget.className += " active";
+			}
+
+			// Get the element with id="defaultOpen" and click on it
+			document.getElementById("defaultOpen").click();
+			</script>
+		</section>
+	</body>
+</html>

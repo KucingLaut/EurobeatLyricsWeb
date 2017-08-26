@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Eurobeat Lyrics Web</title>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="../style.css">
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			</script>
+		<![endif]-->
+		<style>
+
+		</style>
+	</head>
+	<body style="background-color:#22313F; font-family: sans-serif;">
+		<!-- Header -->
+		<header>
+			<h1>
+			EUROBEAT LYRICS WEB
+			</h1>
+			<p>
+				<b>Your One Stop Eurobeat Lyrics List</b>
+			</p>
+		</header>
+		<!--menubar-->
+		<nav>
+			<a href="../index.html" class="menu_link home">Home</a>
+			<a href="../song_list.html" class="menu_link song_list">Song List</a>
+			<a href="../about.html" class="menu_link about">About</a>
+		</nav>
+		<!-- Content -->
+		<section>
+			<!--Song Title-->
+			<h2>Lyrics for Grand Prix- Mega NRG Man</h2>
+			<!--Youtube Video-->
+			<iframe width="420" height="345" src="https://www.youtube.com/embed/ApnMmlZzO5c"></iframe>
+			<br><br>
+			<div class="tab">
+			<button class="tablinks" onclick="openCity(event, 'English')" id="defaultOpen">English</button>
+			</div>
+			<div id="English" class="tabcontent">
+<pre>
+Wanna keep me cool and face your cleverness
+And your powerful engine
+I see the crowd exulting for me tonight over and over...
+
+I just wanna be the leader
+Ready to win you!
+Forever at full speed wanna step on the gas tonight
+It's right
+
+I got the fire of the Grand Prix
+Grippin' my steering wheel so tight
+It's gonna be a lucky Grand Prix
+Ready to cross the line in the end
+
+I got the fire of the Grand Prix
+Grippin' my steering wheel so tight
+It's gonna be a lucky Grand Prix
+Ready to cross the line in the end
+
+I just wanna be the champion
+Tonight a race it's gonna be started
+Get ready now! A roaring success for me
+I really like it!
+
+I just wanna be the leader
+Ready to win you!
+Forever at full speed wanna step on the gas tonight
+It's right
+
+I got the fire of the Grand Prix
+Grippin' my steering wheel so tight
+It's gonna be a lucky Grand Prix
+Ready to cross the line in the end
+
+I got the fire of the Grand Prix
+Grippin' my steering wheel so tight
+It's gonna be a lucky Grand Prix
+Ready to cross the line in the end
+</pre>
+			</div>
+			<script>
+			function openCity(evt, cityName) {
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName("tabcontent");
+				for (i = 0; i < tabcontent.length; i++) {
+						tabcontent[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablinks");
+				for (i = 0; i < tablinks.length; i++) {
+						tablinks[i].className = tablinks[i].className.replace(" active", "");
+				}
+				document.getElementById(cityName).style.display = "block";
+				evt.currentTarget.className += " active";
+			}
+
+			// Get the element with id="defaultOpen" and click on it
+			document.getElementById("defaultOpen").click();
+			</script>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Eurobeat Lyrics Web</title>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="../style.css">
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			</script>
+		<![endif]-->
+		<style>
+
+		</style>
+	</head>
+	<body style="background-color:#22313F; font-family: sans-serif;">
+		<!-- Header -->
+		<header>
+			<h1>
+			EUROBEAT LYRICS WEB
+			</h1>
+			<p>
+				<b>Your One Stop Eurobeat Lyrics List</b>
+			</p>
+		</header>
+		<!--menubar-->
+		<nav>
+			<a href="../index.html" class="menu_link home">Home</a>
+			<a href="../song_list.html" class="menu_link song_list">Song List</a>
+			<a href="../about.html" class="menu_link about">About</a>
+		</nav>
+		<!-- Content -->
+		<section>
+			<!--Song Title-->
+			<h2>Lyrics for Max Power - Dr. Love ft. D. Essex</h2>
+			<!--Youtube Video-->
+			<iframe width="420" height="345" src="https://www.youtube.com/embed/M_Q9mZjpP1Q"></iframe>
+			<br><br>
+			<div class="tab">
+			<button class="tablinks" onclick="openCity(event, 'English')" id="defaultOpen">English</button>
+			</div>
+			<div id="English" class="tabcontent">
+<pre>
+Even if you feel bad, even if you wish to leave and go away
+In and out of madness
+In and out of goodness
+You must be awake
+
+When it's freezin', when it's burnin'
+Hold your black car, let it go far
+Burns the fever burns as fire
+
+Never never surrender
+
+Max power maximum and higher
+Beat'em all, let's beat'em all!
+Max power, get it on, you go there
+Let's get what you belong to
+
+Always in the riot, always in the lion's cage
+It's what you need
+'Till the counter beats 'four', 'till your body needs more
+Oxygen to breathe
+
+When it's freezin', when it's burnin'
+Hold your black car, let it go far
+Burns the fever burns as fire
+
+Never never surrender
+
+Max power maximum and higher
+Beat'em all, let's beat'em all!
+Max power, get it on, you go there
+Let's get what you belong to
+</pre>
+			</div>
+			<script>
+			function openCity(evt, cityName) {
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName("tabcontent");
+				for (i = 0; i < tabcontent.length; i++) {
+						tabcontent[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablinks");
+				for (i = 0; i < tablinks.length; i++) {
+						tablinks[i].className = tablinks[i].className.replace(" active", "");
+				}
+				document.getElementById(cityName).style.display = "block";
+				evt.currentTarget.className += " active";
+			}
+
+			// Get the element with id="defaultOpen" and click on it
+			document.getElementById("defaultOpen").click();
+			</script>
+		</section>
+	</body>
+</html>
